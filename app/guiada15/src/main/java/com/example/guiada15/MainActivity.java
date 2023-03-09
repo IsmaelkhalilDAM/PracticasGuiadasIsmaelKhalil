@@ -3,11 +3,12 @@ package com.example.guiada15;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-
+import android.provider.CallLog.Calls;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.Manifest;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;

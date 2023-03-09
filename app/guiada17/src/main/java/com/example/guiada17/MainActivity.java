@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textoBusqueda = findViewById(R.id.editTextBusqueda);
-        resultado = findViewById(R.id.editTextBusqueda);
+        resultado = findViewById(R.id.resultado);
         findViewById(R.id.buttonBuscar).setOnClickListener(this::buscarClick);
         findViewById(R.id.buttonRest).setOnClickListener(this::restClick);
     }
